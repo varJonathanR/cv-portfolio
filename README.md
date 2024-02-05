@@ -8,6 +8,8 @@
 
 Built with [ASTRO](https://astro.build/) and hosted with [Netlify](https://www.netlify.com/) • <a href="https://cv-portfolio-varjonathanr.netlify.app/">Demo</a> <br>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ccb28db-d2bc-4bdf-802b-b5a65817957f/deploy-status)](https://app.netlify.com/sites/cv-portfolio-varjonathanr/deploys)
+
 </div>
 
 ## Table of Contents
@@ -27,6 +29,7 @@ Portfolio inspired on [BartoszJarocki's portfolio](https://github.com/BartoszJar
 
 > [!NOTE]
 > Currently learning `ASTRO`
+> [View](https://github.dev/varJonathanR/cv-portfolio) this project as in a code editor.
 
 ### 🛠️ Built With
 
