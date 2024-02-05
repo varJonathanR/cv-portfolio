@@ -10,7 +10,7 @@ import Certifications from "@/components/sections/Certifications.astro";
 ---
 
 <Layout title="CV Portfolio | varJonathanR">
-  <main>
+  <main class="p-4 m-auto w-full md:p-16">
     <Hero />
     <About />
     <Projects />
@@ -19,17 +19,3 @@ import Certifications from "@/components/sections/Certifications.astro";
   </main>
   <KeyboardManager />
 </Layout>
-
-<style>
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
-  }
-
-  @media screen and (max-width: 700px) {
-    main {
-      padding: 1rem;
-    }
-  }
-</style>

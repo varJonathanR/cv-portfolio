@@ -22,11 +22,11 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
-  <div class="container">
-    <div class="info">
-      <h1>{name}</h1>
-      <h2>{label}</h2>
-      <span>
+  <div class="flex flex-row justify-between items-center gap-4">
+    <div class="flex flex-col gap-2 pr-8">
+      <h1 class="text-[1.8rem] md:text-[2rem]">{name}</h1>
+      <h2 class="text-[1.1rem] text-balance font-semibold">{label}</h2>
+      <span class="flex items-center gap-1 text-[0.85rem] tracking-tighter">
         <World />
         {city}, {region}
       </span>
@@ -65,52 +65,20 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <img
+        src={image}
+        alt={name}
+        class="aspect-square object-cover w-[120px] rounded-2xl"
+      />
     </figure>
   </div>
 </Section>
 
 <style>
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-right: 32px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-wrap: balance;
+  h2,
+  span,
+  a {
     color: #444;
-  }
-
-  img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 120px;
-    border-radius: 1rem;
-  }
-
-  span {
-    color: #444;
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    font-size: 0.85rem;
-    letter-spacing: -0.05rem;
   }
 
   footer {
@@ -122,7 +90,6 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
   }
 
   footer a {
-    color: #444;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -137,11 +104,5 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
   footer a:hover {
     background-color: #eee;
     border: 1px solid #ddd;
-  }
-
-  @media screen and (max-width: 700px) {
-    h1 {
-      font-size: 1.8rem;
-    }
   }
 </style>

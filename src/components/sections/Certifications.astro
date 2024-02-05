@@ -4,50 +4,27 @@ import { certificates } from "@cv";
 ---
 
 <Section title="Certifications">
-  <div class="container">
+  <div class="flex flex-col gap-4">
     {
       certificates.map(({ name, url, issuer, date }) => (
-        <article>
+        <article class="w-full flex justify-between items-start gap-2">
           <div class="">
-            <h3>
+            <h3 class="h3">
               <a
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
                 title={`View ${name} certification`}
+                class="text-[#111]"
               >
                 {name}
               </a>
             </h3>
             <p>{issuer}</p>
           </div>
-          <p class="date">{date}</p>
+          <p class="text-right w-1/4">{date}</p>
         </article>
       ))
     }
   </div>
 </Section>
-
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  article {
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  a {
-    color: #111;
-  }
-
-  .date {
-    text-align: right;
-    width: 25%;
-  }
-</style>
