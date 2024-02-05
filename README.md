@@ -1,54 +1,55 @@
-# Astro Starter Kit: Basics
+<div align="center">
+    <img src="https://github.com/varJonathanR/os-portfolio/blob/main/public/vJRLogo.webp" alt="Logo" width="120px" />
+</div>
 
-```sh
-npm create astro@latest -- --template basics
+<h1 align="center">📜 CV Portfolio || varJonathanR</h1>
+
+<div align="center">
+
+Built with [ASTRO](https://astro.build/) and hosted with [Netlify](https://www.netlify.com/) • <a href="https://cv-portfolio-varjonathanr.netlify.app/">Demo</a> <br>
+
+</div>
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+
+## 🔎 Overview
+
+> Stay tuned for upcoming updates!
+
+![Minimalist Portfolio Preview](https://github.com/varJonathanR/cv-portfolio/blob/main/public/cv-portfolio_preview.png)
+
+Portfolio inspired on [BartoszJarocki's portfolio](https://github.com/BartoszJarocki/cv), using the JSON schema to build a CV provided by [JSON Resume](https://jsonresume.org/schema/) and following [midudev](https://github.com/midudev)'s tutorial: [Aprende a Crear un Portfolio Web para Programadores: Astro 4, HTML, CSS](https://youtu.be/Zwh92LTB-Bk?si=-qNLBxt1AyevFdtJ).
+
+> [!NOTE]
+> Currently learning `ASTRO`
+
+### 🛠️ Built With
+
+- [ASTRO](https://astro.build/): `^4.3.1`
+- [TypeScript](https://www.typescriptlang.org/): `^5.3.3`
+- [Ninja Keys](https://github.com/ssleptsov/ninja-keys): `^1.2.2`
+
+## ⚙️ How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/varJonathanR/cv-portfolio
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🤝 Contact
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- GitHub [@varJonathanR](https://github.com/varJonathanR)
+- LinkedIn [@jonathanrodriguez04](https://www.linkedin.com/in/jonathanrodriguez04)

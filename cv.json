@@ -1,0 +1,126 @@
+{
+  "basics": {
+    "name": "Jonathan Rodríguez",
+    "label": "Front End Developer",
+    "image": "/avatar.webp",
+    "email": "varjonathanr@gmail.com",
+    "url": "https://varjonathanr.netlify.app/",
+    "summary": "Front End Developer with the goal of becoming a Full Stack Developer. Throughout my learning journey, I have sought challenging projects that allow me to explore new programming approaches and develop creative solutions. My primary focus when coding is to achieve maximum efficiency, adhering to best practices in web development and maintaining clean and scalable code. I always strive to stay updated on the technological landscape to work more professionally and efficiently. Additionally, I aim to learn technologies that will help me achieve my goals.",
+    "location": {
+      "city": "San Salvador",
+      "countryCode": "SV",
+      "region": "El Salvador"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jonathanrodriguez04",
+        "url": "https://www.linkedin.com/in/jonathanrodriguez04/"
+      },
+      {
+        "network": "GitHub",
+        "username": "varJonathanR",
+        "url": "https://github.com/varJonathanR"
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "name": "Front End Developer",
+      "date": "January 2024",
+      "issuer": "devChallenges.io",
+      "url": "https://legacy.devchallenges.io/certificates/4sIdXFqwKwlbYQzU9Gnx"
+    },
+    {
+      "name": "Redis | RU101: Introduction to Redis Data Structures",
+      "date": "November 2023",
+      "issuer": "Redis University",
+      "url": "https://university.redis.com/certificates/b105f8f676774e6887971c2dc79a9ed9"
+    },
+    {
+      "name": "Front End Development Libraries",
+      "date": "September 2023",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/varJonathanR/front-end-development-libraries"
+    },
+    {
+      "name": "Javascript Algorithms And Data Structures",
+      "date": "September 2023",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/varJonathanR/javascript-algorithms-and-data-structures"
+    },
+    {
+      "name": "Responsive Web Developer",
+      "date": "June 2023",
+      "issuer": "devChallenges.io",
+      "url": "https://legacy.devchallenges.io/certificates/jixYg9EIzMo2Zmj8emO3"
+    },
+    {
+      "name": "Responsive Web Design",
+      "date": "January 2023",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/varJonathanR/responsive-web-design"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "SASS / SCSS",
+    "Bootstrap",
+    "TailwindCSS",
+    "JavaScript",
+    "TypeScript",
+    "JQuery",
+    "React",
+    "Astro",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Netlify"
+  ],
+  "languages": ["Spanish", "English"],
+  "projects": [
+    {
+      "name": "OS Portfolio",
+      "isActive": true,
+      "description": "My Front End portfolio with an Operating System theme.",
+      "highlights": ["React", "TypeScript", "TailwindCSS"],
+      "url": "https://varjonathanr.netlify.app/"
+    },
+    {
+      "name": "GitHub Jobs",
+      "isActive": true,
+      "description": "Search jobs by country and state and filter Full-Time jobs.",
+      "highlights": ["React", "TypeScript", "TailwindCSS"],
+      "url": "https://github-jobs-varjonathanr.netlify.app/"
+    },
+    {
+      "name": "GitHub Profiles",
+      "isActive": true,
+      "description": "Shearch users from GitHub and get all user repositories.",
+      "highlights": ["React", "TypeScript", "TailwindCSS"],
+      "url": "https://github-profiles-varjonathanr.netlify.app/"
+    },
+    {
+      "name": "Weather App",
+      "isActive": true,
+      "description": "Seacrh locations and get in real time current weather conditions.",
+      "highlights": ["React", "JavaScript", "CSS"],
+      "url": "https://weather-app-varjonathanr.netlify.app/"
+    },
+    {
+      "name": "Translate App",
+      "isActive": true,
+      "description": "Translate any text to any language you want, with support for a wide range of languages.",
+      "highlights": ["React", "JavaScript", "CSS"],
+      "url": "https://translate-app-varjonathanr.netlify.app/"
+    },
+    {
+      "name": "Country Quiz",
+      "isActive": true,
+      "description": "Take a quien geography quiz and get instant result of your knowns in this area.",
+      "highlights": ["React", "JavaScript", "CSS"],
+      "url": "https://country-quiz-varjonathanr.netlify.app/"
+    }
+  ]
+}

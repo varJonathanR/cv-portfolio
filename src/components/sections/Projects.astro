@@ -1,0 +1,96 @@
+---
+import Section from "@/components/Section.astro";
+import { projects } from "@cv";
+---
+
+<Section title="Projects">
+  <ul>
+    {
+      projects.map(({ name, url, description, highlights, isActive }) => (
+        <li>
+          <article>
+            <header>
+              <h3>
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={`Go to demo: ${name}`}
+                >
+                  {name}
+                </a>
+                {isActive && <span>&bull;</span>}
+              </h3>
+              <p>{description}</p>
+            </header>
+            <footer>
+              {highlights.map((hightlight) => (
+                <span>{hightlight}</span>
+              ))}
+            </footer>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    padding: 1rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  article h3 {
+    margin-bottom: 4px;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article p {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+
+  article h3 span {
+    color: rgb(0, 188, 47);
+  }
+
+  header {
+    flex: 1;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background-color: #eee;
+    color: #444;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
