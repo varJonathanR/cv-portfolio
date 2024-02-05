@@ -35,6 +35,7 @@ Portfolio inspired on [BartoszJarocki's portfolio](https://github.com/BartoszJar
 
 - [ASTRO](https://astro.build/): `^4.3.1`
 - [TypeScript](https://www.typescriptlang.org/): `^5.3.3`
+- [TailwindCSS](https://tailwindcss.com/): `^3.4.1`
 - [Ninja Keys](https://github.com/ssleptsov/ninja-keys): `^1.2.2`
 
 ## ⚙️ How To Use
