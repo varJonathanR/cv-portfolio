@@ -5,9 +5,10 @@ import World from "@/icons/World.astro";
 import Mail from "@/icons/Mail.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
+import User from "@/icons/User.astro";
 import X from "@/icons/X.astro";
 
-const { name, label, image, email, location, profiles } = basics;
+const { name, label, image, email, resume, location, profiles } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -61,6 +62,18 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
               </a>
             );
           })
+        }
+        {
+          resume && (
+            <a
+              href={resume}
+              title={`View ${name} resume`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <User />
+            </a>
+          )
         }
       </footer>
     </div>
