@@ -4,7 +4,7 @@ import { certificates } from "@cv";
 ---
 
 <Section title="Certifications">
-  <div class="flex flex-col gap-4">
+  <section class="flex flex-col gap-4">
     {
       certificates.map(({ name, url, issuer, date }) => (
         <article class="w-full flex justify-between items-start gap-2">
@@ -26,5 +26,5 @@ import { certificates } from "@cv";
         </article>
       ))
     }
-  </div>
+  </section>
 </Section>
