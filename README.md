@@ -21,15 +21,11 @@ Built with [ASTRO](https://astro.build/) and hosted with [Netlify](https://www.n
 
 ## 🔎 Overview
 
-> Stay tuned for upcoming updates!
-
 ![Minimalist Portfolio Preview](https://github.com/varJonathanR/cv-portfolio/blob/main/public/cv-portfolio_preview.png)
 
-Portfolio inspired on [BartoszJarocki's portfolio](https://github.com/BartoszJarocki/cv) and using the JSON schema to build a CV provided by [JSON Resume](https://jsonresume.org/schema/).
-
-> [!NOTE]
-> Currently learning `ASTRO` <br>
 > View this project as in a [code editor](https://github.dev/varJonathanR/cv-portfolio).
+
+Portfolio inspired on [BartoszJarocki's portfolio](https://github.com/BartoszJarocki/cv) and using the JSON schema to build a CV provided by [JSON Resume](https://jsonresume.org/schema/).
 
 ### 🛠️ Built With
 

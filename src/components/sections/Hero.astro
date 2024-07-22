@@ -8,7 +8,7 @@ import GitHub from "@/icons/GitHub.astro";
 import User from "@/icons/User.astro";
 import X from "@/icons/X.astro";
 
-const { name, label, image, email, resume, location, profiles } = basics;
+const { name, label, email, resume, location, profiles } = basics; // Extract image if needed
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -77,13 +77,13 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
         }
       </footer>
     </div>
-    <figure>
+    <!-- <figure>
       <img
         src={image}
         alt={name}
         class="aspect-square object-cover w-[120px] rounded-2xl"
       />
-    </figure>
+    </figure> -->
   </div>
 </Section>
 

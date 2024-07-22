@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jonathan Rodríguez",
-    "label": "Front End Developer",
+    "label": "MERN Developer",
     "image": "/avatar.webp",
     "email": "varjonathanr@gmail.com",
     "resume": "/Jonathan_Rodriguez_Resume.pdf",
     "url": "https://varjonathanr.netlify.app/",
-    "summary": "Front End Developer with the goal of becoming a Full Stack Developer. Throughout my learning journey, I have sought challenging projects that allow me to explore new programming approaches and develop creative solutions. My primary focus when coding is to achieve maximum efficiency, adhering to best practices in web development and maintaining clean and scalable code. I always strive to stay updated on the technological landscape to work more professionally and efficiently.",
+    "summary": "",
     "location": {
       "city": "San Salvador",
       "countryCode": "SV",
@@ -64,64 +64,71 @@
     }
   ],
   "skills": [
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
     "SASS / SCSS",
-    "Bootstrap",
     "TailwindCSS",
+    "Bootstrap",
     "JavaScript",
     "TypeScript",
-    "JQuery",
     "React",
     "Astro",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "SQLite",
+    "MongoDB",
+    "TursoDB",
     "Git",
     "GitHub",
     "Figma",
+    "Vercel",
     "Netlify"
   ],
   "languages": ["Spanish", "English"],
   "projects": [
     {
-      "name": "OS Portfolio",
+      "name": "Authentication App",
       "isActive": true,
-      "description": "My Front End portfolio with an Operating System theme.",
-      "highlights": ["React", "TypeScript", "TailwindCSS"],
-      "url": "https://varjonathanr.netlify.app/"
+      "description": "Create and edit your profile, you can register with OAuth.",
+      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS", "MongoDB"],
+      "url": "https://authentication-app-varjonathanr.vercel.app/"
+    },
+    {
+      "name": "CatWiki",
+      "isActive": true,
+      "description": "Get basic information about the cat breed of your interest (supports over 66 breeds).",
+      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS"],
+      "url": "https://catwiki-varjonathanr.vercel.app/"
+    },
+    {
+      "name": "My Unsplash",
+      "isActive": true,
+      "description": "Simple Unsplash clone, register to share images.",
+      "highlights": ["Full Stack", "Astro", "TypeScript", "TailwindCSS", "Node.js", "TursoDB"],
+      "url": "https://my-unsplash-varjonathanr.vercel.app/"
+    },
+    {
+      "name": "Image Uploader",
+      "isActive": true,
+      "description": "Upload an image to the cloud and get a link to share it.",
+      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS", "Cloudinary"],
+      "url": "https://image-uploader-flax.vercel.app/"
     },
     {
       "name": "GitHub Jobs",
       "isActive": true,
-      "description": "Search jobs by country and state and filter Full-Time jobs.",
-      "highlights": ["React", "TypeScript", "TailwindCSS"],
+      "description": "Search jobs by country and state, you can filter Full-Time jobs.",
+      "highlights": ["Front End", "React", "TypeScript", "TailwindCSS"],
       "url": "https://github-jobs-varjonathanr.netlify.app/"
-    },
-    {
-      "name": "GitHub Profiles",
-      "isActive": true,
-      "description": "Shearch users from GitHub and get all user repositories.",
-      "highlights": ["React", "TypeScript", "TailwindCSS"],
-      "url": "https://github-profiles-varjonathanr.netlify.app/"
     },
     {
       "name": "Weather App",
       "isActive": true,
       "description": "Seacrh locations and get in real time current weather conditions.",
-      "highlights": ["React", "JavaScript", "CSS"],
+      "highlights": ["Front End", "React", "JavaScript", "CSS"],
       "url": "https://weather-app-varjonathanr.netlify.app/"
-    },
-    {
-      "name": "Translate App",
-      "isActive": true,
-      "description": "Translate any text to any language you want, with support for a wide range of languages.",
-      "highlights": ["React", "JavaScript", "CSS"],
-      "url": "https://translate-app-varjonathanr.netlify.app/"
-    },
-    {
-      "name": "Country Quiz",
-      "isActive": true,
-      "description": "Take a quien geography quiz and get instant result of your knowns in this area.",
-      "highlights": ["React", "JavaScript", "CSS"],
-      "url": "https://country-quiz-varjonathanr.netlify.app/"
     }
   ]
 }
