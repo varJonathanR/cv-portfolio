@@ -1,0 +1,48 @@
+---
+import Section from "@/components/Section.astro";
+
+import { work } from "@cv";
+
+
+---
+
+<Section title="Experience">
+    <ul class="flex flex-col gap-8">
+        {
+            work.map(({ name, position, url, startDate, endDate, summary, highlights, skills, mode }) => {
+                const startYear = `${new Date(startDate).getMonth() + 1}/${new Date(startDate).getFullYear()}`;
+                const endYear = endDate !== null ? `${new Date(endDate).getMonth() + 1}/${new Date(endDate).getFullYear()}` : "Present";
+                const years = `${startYear} - ${endYear}`;
+
+                return (
+                    <li>
+                        <article>
+                            <header class="flex items-start justify-between">
+                                <div>
+                                    <h3 class="font-medium text-[#111]"><a href={url} target="_blank" rel="noopener noreferrer">{name}</a> <span class="rounded-md bg-custom-white text-black text-[0.8rem] font-medium py-[0.2rem] px-[0.6rem]">{mode}</span></h3>
+                                    <h4 class="font-normal text-[#222]">{position}</h4>
+                                </div>
+                                <time class="text-sm text-[#555]">{years}</time>
+                            </header>
+                            <footer>
+                                <p>{summary}</p>
+                                <ul class="ml-4 mt-2 list-disc">
+                                    {
+                                        highlights.map(highlight => (<li class="text-[0.8rem]">{highlight}</li>))
+                                    }
+                                </ul>
+                                <ul class="mt-2 flex items-center gap-2 list-none">
+                                    {
+                                        skills.map(skill => (<li class="text-[0.8rem]">
+                                            <span class="rounded-md bg-custom-white text-black text-[0.8rem] font-medium py-[0.2rem] px-[0.6rem]">{skill}</span>
+                                        </li>))
+                                    }
+                                </ul>
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+</Section>

@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Jonathan Rodríguez",
+    "name": "Jonathan Rodriguez",
     "label": "MERN Developer",
     "image": "/avatar.webp",
     "email": "varjonathanr@gmail.com",
@@ -25,6 +25,23 @@
       }
     ]
   },
+  "work": [
+    {
+      "name": "Omniservice",
+      "position": "Full Stack developer",
+      "url": "https://omniservice.com.sv/",
+      "startDate": "11-11-2024",
+      "endDate": null,
+      "summary": "Web Developer at a security-focused company, responsible for maintaining and improving internal and client-facing software. Gained valuable experience in writing clean, scalable, efficient, and secure code.",
+      "highlights": [
+        "Email notification automation was developed, improving communication among internal teams.",
+        "The workflow for version control and deploying changes to production was improved",
+        "The capabilities of the internal system were expanded by me at both the front-end and back-end levels."
+      ],
+      "skills": ["React", "Node.js", "MyQSL", "Git"],
+      "mode": "On Site"
+    }
+  ],
   "certificates": [
     {
       "name": "Front End Developer",
@@ -92,43 +109,28 @@
       "name": "Authentication App",
       "isActive": true,
       "description": "Create and edit your profile, you can register with OAuth.",
-      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS", "MongoDB"],
+      "highlights": [
+        "Full Stack",
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "MongoDB"
+      ],
       "url": "https://authentication-app-varjonathanr.vercel.app/"
-    },
-    {
-      "name": "CatWiki",
-      "isActive": true,
-      "description": "Get basic information about the cat breed of your interest (supports over 66 breeds).",
-      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS"],
-      "url": "https://catwiki-varjonathanr.vercel.app/"
     },
     {
       "name": "My Unsplash",
       "isActive": true,
       "description": "Simple Unsplash clone, register to share images.",
-      "highlights": ["Full Stack", "Astro", "TypeScript", "TailwindCSS", "Node.js", "TursoDB"],
+      "highlights": [
+        "Full Stack",
+        "Astro",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "TursoDB"
+      ],
       "url": "https://my-unsplash-varjonathanr.vercel.app/"
-    },
-    {
-      "name": "Image Uploader",
-      "isActive": true,
-      "description": "Upload an image to the cloud and get a link to share it.",
-      "highlights": ["Full Stack", "Next.js", "TypeScript", "TailwindCSS", "Cloudinary"],
-      "url": "https://image-uploader-flax.vercel.app/"
-    },
-    {
-      "name": "GitHub Jobs",
-      "isActive": true,
-      "description": "Search jobs by country and state, you can filter Full-Time jobs.",
-      "highlights": ["Front End", "React", "TypeScript", "TailwindCSS"],
-      "url": "https://github-jobs-varjonathanr.netlify.app/"
-    },
-    {
-      "name": "Weather App",
-      "isActive": true,
-      "description": "Seacrh locations and get in real time current weather conditions.",
-      "highlights": ["Front End", "React", "JavaScript", "CSS"],
-      "url": "https://weather-app-varjonathanr.netlify.app/"
     }
   ]
 }
